@@ -12,3 +12,17 @@ Write the code, one line for each action:
 4. Change the value of the `name` to `Pete`.
 5. Remove the property `name` from the object.
 
+# Solution 
+
+```js 
+
+ler user = {};
+
+user.name = 'John';
+user.surname = 'Smith';
+
+user.name = 'Pete';
+delete user.name;
+
+
+```

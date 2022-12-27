@@ -7,7 +7,11 @@ let menu = {
 
 function multiplyNumeric(obj) {
   
-  /* your code */
+  for(let prop in obj){
+    if(typeof obj[prop] == 'number'){
+      obj[prop] *=  2;
+    }
+  }
 
 }
 

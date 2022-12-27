@@ -12,7 +12,14 @@ Create an object `calculator` with three methods:
 
 ```js
 let calculator = {
-  // ... your code ...
+  read(){
+    this.a = prompt('Enter the first Value');
+    this.b = prompt('Enter the Second Value');
+  },
+  sum(){
+    return this.a + this.b;
+  }, 
+  mul() { this.a * this.b};
 };
 
 calculator.read();

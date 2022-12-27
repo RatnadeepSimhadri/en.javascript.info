@@ -21,3 +21,23 @@ alert( "Mul=" + calculator.mul() );
 ```
 
 [demo]
+
+# Solution 
+
+```js
+
+function Calculator(){
+    this.read = function(){
+        this.a = prompt("Enter the First Value");
+        this.b = prompt("Enter the Second value");
+    }, 
+
+    this.sum = function(){
+        return this.a + this.b;
+    }, 
+
+    this.mul = function(){
+        return this.a * this.b;
+    }
+}
+```

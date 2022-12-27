@@ -18,3 +18,15 @@ schedule["8:30"] = "get up";
 alert( isEmpty(schedule) ); // false
 ```
 
+
+# Solution 
+
+```js
+
+function isEmpty(obj){
+    for(let prop in obj)
+        return false
+    return true;
+}
+
+```
