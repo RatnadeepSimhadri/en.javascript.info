@@ -17,3 +17,9 @@ alert( a == b ); // true
 ```
 
 If it is, then provide an example of their code.
+
+# Solution 
+
+Yes , its possible because we can make the functions return a custom object `{....}` instead of this 
+[Refer to the Solution here](./solution.md)
+

@@ -231,3 +231,6 @@ As we can see, all of them are straightforward and simple to use. The `?.` check
 A chain of `?.` allows to safely access nested properties.
 
 Still, we should apply `?.` carefully, only where it's acceptable, according to our code logic, that the left part doesn't exist. So that it won't hide programming errors from us, if they occur.
+
+✅ Done with Understanding Optional Chaining
+

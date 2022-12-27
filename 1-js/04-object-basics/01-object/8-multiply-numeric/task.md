@@ -30,4 +30,14 @@ Please note that `multiplyNumeric` does not need to return anything. It should m
 
 P.S. Use `typeof` to check for a number here.
 
+```js
 
+function multiplyNumeric(obj){
+  for(let prop in obj){
+    if(!isNaN(obj[prop]) && obj[prop] !== null){
+      obj[prop] = obj[prop] * 2;
+    }
+  }
+}
+
+```

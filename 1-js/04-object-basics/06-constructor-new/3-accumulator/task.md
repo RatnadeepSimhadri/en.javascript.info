@@ -24,4 +24,14 @@ accumulator.read(); // adds the user-entered value
 alert(accumulator.value); // shows the sum of these values
 ```
 
-[demo]
+
+# Solution 
+
+```js
+function Accumulator(startingValue){
+    this.value = startingValue;
+    this.read = function(){
+        this.value += +prompt();
+    }
+}
+```

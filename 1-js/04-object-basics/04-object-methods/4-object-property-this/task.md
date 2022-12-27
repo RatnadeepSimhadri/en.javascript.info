@@ -21,3 +21,6 @@ let user = makeUser();
 alert( user.ref.name ); // What's the result?
 ```
 
+# Solution 
+
+[Refer to this document for complete reference](./solution.md)
